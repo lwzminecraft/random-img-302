@@ -1,0 +1,6 @@
+# netlify.toml
+
+[build]
+# 如果您的函数不在默认的 'netlify/functions' 文件夹中，则需要指定路径
+functions = "functions" 
+# 这里我们假设函数源文件在 'functions' 目录下
