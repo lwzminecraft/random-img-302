@@ -7,9 +7,9 @@ export default async (request, context) => { // <-- 错误已修正：'默认' -
   var urls = [
 'https://wpapi.lwzmc1437.cn/random/0d9efb5a2fca6440b7d7f348571b9d7bfc2644b2.jpg',
 'https://wpapi.lwzmc1437.cn/random/13bdfa7bcaad054e1d38fdf04cf1cc507a18b95c.jpg',
-'https://wpapi.lwzmc1437.cn/random/20251023_000324-kkof.jpg'，
-'https://wpapi.lwzmc1437.cn/random/c8ae96107fbdc1d46993215d5c69902babb06aa7.jpg'，
-'https://wpapi.lwzmc1437.cn/random/background-4.jpg'，
+'https://wpapi.lwzmc1437.cn/random/20251023_000324-kkof.jpg',
+'https://wpapi.lwzmc1437.cn/random/c8ae96107fbdc1d46993215d5c69902babb06aa7.jpg',
+'https://wpapi.lwzmc1437.cn/random/background-4.jpg',
 'https://wpapi.lwzmc1437.cn/random/b52a2ae589530aa9c57e5b725b689c3420ff1e17.jpg',
 'https://wpapi.lwzmc1437.cn/random/33842921925d32fca6d98f04ee0b444e2c9e971d.png',
 'https://wpapi.lwzmc1437.cn/random/background-2.jpg',
