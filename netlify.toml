@@ -1,15 +1,6 @@
-[build]
-  # 指定你的 Netlify 函数代码所在的目录
-  functions = "netlify/functions"
+# netlify.toml
 
-[[redirects]]
-  # 当用户访问站点的根路径时
-  from = "/"
-  # 将请求转发到你的函数 endpoint
-  to = "/.netlify/functions/random-redirect"
-  # 使用 200 状态码进行内部重写（代理）
-  # 这一步是 Netlify 内部操作。由于你的函数返回 302，
-  # 客户端最终接收到的响应状态码将是函数返回的 302，并执行重定向。
-  status = 200
-  # 强制性：将所有查询参数传递给函数
-  force = true
+# 将名为 "random-redirect" 的 Edge Function 映射到 /random 路径
+[[edge_functions]]
+  function = "random-redirect" # 对应你的文件 netlify/edge-functions/random-redirect.js
+  path = "/random"             # 当用户访问 https://你的域名/random 时触发此函数
