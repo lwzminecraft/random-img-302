@@ -1,1 +1,3 @@
-# random-img-302
+基于JS与Netlify的一个图片随机api
+
+如果想部署可自行fork并将js内图片链接进行修改
